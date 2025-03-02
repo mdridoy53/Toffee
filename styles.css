@@ -20,6 +20,25 @@ iframe {
     z-index: 1;
 }
 
+/* Live Viewer Counter */
+.live-viewers {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.live-viewers i {
+    margin-right: 5px;
+    color: yellow;
+}
+
 /* Watermark */
 .watermark {
     position: fixed;
@@ -74,17 +93,6 @@ iframe {
 
 .overlay.show {
     display: flex;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .logo {
-        width: 100px;
-    }
-
-    .watermark {
-        font-size: 20px;
-    }
 }
 
 /* Telegram Icon */
